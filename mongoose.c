@@ -141,6 +141,7 @@ void mg_resolve_cancel(struct mg_connection *c) {
   }
 }
 
+
 static size_t mg_dns_parse_name_depth(const uint8_t *s, size_t len, size_t ofs,
                                       char *to, size_t tolen, size_t j,
                                       int depth) {
